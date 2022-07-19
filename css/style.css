@@ -1,0 +1,89 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  height: 60vh;
+  background: url(../img/header.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25fr 75fr;
+}
+
+.container__top {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.container__drinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  height: 100vh;
+  padding: 1rem;
+
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.container__cocktail {
+  padding: 0 2rem;
+
+  border-top: 1px solid #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drink {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cocktail__img {
+  height: 15rem;
+}
+
+.cocktail__ingredients {
+  display: flex;
+
+  font-size: 1.2rem;
+
+  gap: 1rem;
+}
+
+.cocktail__instructions {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  width: 75%;
+}
+
+.container__drinks img {
+  height: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
