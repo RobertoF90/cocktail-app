@@ -4,9 +4,7 @@ Cocktails API app
 
 Search among hundreds of cocktails and find your favorite one! Get the list of ingredient and instructions on how to prepare it, and finally enjoy your deserved break!
 
-<a href="https://robertofranco.dev/apps/cocktail-app/index.html">
-<img scr="https://github.com/RobertoF90/Portfolio-Roberto/blob/main/src/img/apps/cocktail.png" />
-</a>
+<a href="https://robertofranco.dev/apps/cocktail-app/index.html"><img scr="https://robertofranco.dev/src/img/apps/cocktail.png" /></a>
 
 Link to project: https://robertofranco.dev/apps/cocktail-app/index.html
 
