@@ -96,12 +96,10 @@ function getFetch() {
 
 const hideDrinksBtn = document.querySelector('.container__drinks--btn');
 
-function hideDrinks(e) {
+function hideDrinks() {
   drinkContainer.classList.toggle('active');
   containerApp.classList.toggle('active');
   hideDrinksBtn.classList.toggle('active');
 }
 
 hideDrinksBtn.addEventListener('click', hideDrinks);
-
-console.log(hideDrinksBtn);

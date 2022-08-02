@@ -92,6 +92,8 @@ cocktail--btn:hover {
   gap: 2rem;
   font-size: 2.8rem;
   overflow: scroll;
+
+  transition: all 1s;
 }
 
 .drink {
@@ -111,6 +113,8 @@ cocktail--btn:hover {
 }
 
 .container__cocktail {
+  height: inherit;
+
   padding: 2rem 0;
 
   background: #eae4e2;

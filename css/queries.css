@@ -20,12 +20,6 @@
 }
 
 @media (max-width: 700px) {
-  html {
-    font-size: 30%;
-  }
-}
-
-@media (max-width: 575px) {
   .container {
     grid-template-columns: 40% 60%;
   }
@@ -51,14 +45,14 @@
     transform: translate(-40%, -50%);
   }
 
-  .cocktail__img {
-    height: auto;
-    width: 100%;
-  }
-
   .container__drinks--btn.active {
     left: 1.5%;
   }
+
+  .container__drinks--btn.active span {
+    rotate: 180deg;
+  }
+
   .container__drinks--btn.hidden {
     display: none;
   }
@@ -68,13 +62,24 @@
   }
 
   .container__drinks.active {
-    width: 0;
+    width: 0%;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 27.5%;
   }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 25%;
+  }
+
+  .cocktail__img {
+    height: auto;
+    width: 100%;
   }
 }
 
