@@ -13,10 +13,11 @@ function getDrink(e) {
       const { drinks } = data;
       const drink = drinks[0];
 
-      document.querySelector('.hidden').classList.remove('hidden');
+      // document.querySelector('.hidden').classList.remove('hidden');
 
       document.querySelector('.intro').classList.add('hidden');
 
+      document.querySelector('.cocktail__name').classList.remove('hidden');
       document.querySelector('.cocktail__name').innerText = drink.strDrink;
 
       document.querySelector('.cocktail__img').src = drink.strDrinkThumb;
@@ -34,6 +35,9 @@ function getDrink(e) {
           break;
         }
       }
+      document
+        .querySelector('.cocktail__ingredients')
+        .classList.remove('hidden');
 
       document.querySelector('.cocktail__ingredients').innerHTML = `
       <p class="ingredients__title">Cocktail Ingredients</p>
