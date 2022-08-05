@@ -24,6 +24,15 @@
     grid-template-columns: 45% 55%;
   }
 
+  .container__top {
+    height: 5vh;
+  }
+
+  .container__drinks {
+    padding: 2rem 0;
+    height: 85vh;
+  }
+
   .container__drinks--btn {
     display: flex;
     align-items: center;
@@ -41,8 +50,8 @@
     background-color: #fff;
     position: absolute;
     top: 50%;
-    left: 40%;
-    transform: translate(-40%, -50%);
+    left: 45%;
+    transform: translate(-45%, -50%);
   }
 
   .ingredients__container {
@@ -74,22 +83,28 @@
 
 @media (max-width: 575px) {
   html {
-    font-size: 27.5%;
+    font-size: 35%;
   }
 }
 
 @media (max-width: 450px) {
-  html {
-    font-size: 25%;
+  .container__top {
+    height: 8vh;
+  }
+
+  .cocktail--btn {
+    font-size: 2.4rem;
+  }
+
+  .container__drinks {
+    font-size: 2.4rem;
+  }
+
+  .ingredients__container {
+    font-size: 2.2rem;
   }
 
   .cocktail__img {
     height: 20vh;
-  }
-}
-
-@media (max-width: 375px) {
-  html {
-    font-size: 20%;
   }
 }

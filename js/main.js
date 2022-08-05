@@ -13,7 +13,11 @@ function getDrink(e) {
       const { drinks } = data;
       const drink = drinks[0];
 
-      // document.querySelector('.hidden').classList.remove('hidden');
+      if (window.innerWidth < 700) {
+        document
+          .querySelector('.container__drinks--btn')
+          .classList.remove('hidden');
+      }
 
       document.querySelector('.intro').classList.add('hidden');
 

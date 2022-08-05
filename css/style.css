@@ -61,7 +61,7 @@ body {
   outline: none;
 }
 
-.container__top button {
+.cocktail--btn {
   background: linear-gradient(to bottom right, #31572c, #90a955);
   color: #eee;
   font-size: 2.8rem;
@@ -113,6 +113,11 @@ cocktail--btn:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.intro {
+  text-align: center;
+  font-size: 2.4rem;
 }
 
 .cocktail__name {
@@ -181,10 +186,11 @@ cocktail--btn:hover {
 .cocktail__instructions {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 
-  padding: 0 6rem;
+  padding: 0 4rem;
   font-size: 2.4rem;
   line-height: 1.5;
   overflow: scroll;
@@ -196,10 +202,6 @@ h3 {
 
 .container__drinks img {
   height: 50px;
-}
-
-.intro {
-  font-size: 2.4rem;
 }
 
 /******************************************
