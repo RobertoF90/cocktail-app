@@ -25,7 +25,7 @@
   }
 
   .container__top {
-    height: 5vh;
+    height: 8vh;
   }
 
   .container__drinks {
@@ -92,8 +92,23 @@
     height: 8vh;
   }
 
+  .container__top input {
+    border: none;
+    border-radius: 18px;
+    margin-left: 2rem;
+    padding: 0.5rem 0 1rem 1rem;
+    font-size: 2.8rem;
+
+    outline: none;
+  }
+
+  .intro {
+    font-size: 3.2rem;
+  }
+
   .cocktail--btn {
     font-size: 2.4rem;
+    right: 5%;
   }
 
   .container__drinks {
