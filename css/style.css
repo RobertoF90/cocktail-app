@@ -76,6 +76,11 @@ body {
   transition: all 0.1s;
 }
 
+.cocktail--btn:active {
+  transform: scale(0.9);
+  box-shadow: 0 3px 15px -2px;
+}
+
 cocktail--btn:hover {
   cursor: pointer;
   transform: scale(1.05);

@@ -5,7 +5,6 @@ containerApp = document.querySelector('.container');
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
 
 function getDrink(e) {
-  // document.querySelector('.cocktail__ingredients').innerHTML = '';
   const choice = e.target.closest('div').dataset.id;
   fetch(url + choice)
     .then((res) => res.json()) // parse response as JSON
